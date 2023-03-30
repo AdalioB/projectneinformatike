@@ -1,0 +1,220 @@
+body {
+  background: linear-gradient(#000000, #ebf8e1, #000000);
+  overflow-x: hidden;
+}
+
+.format h1{
+  font-size: 25px;
+  color: #cf881d;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+/* smartphone */
+
+.nav-al,
+.nav-al1 {
+  width: 100%;
+  height: 100px;
+  /* border: 1px solid #000000; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav-al {
+  background: linear-gradient(
+    0.25turn,
+    #000000,
+    #000000,
+    #3d3c3c,
+    #bbb5b5,
+    #fbfbfb
+  );
+}
+
+.nav-al .logo img,
+.nav-al1 .logo img {
+  width: 190px;
+  height: 60px;
+  margin: 20px 0 0 100px;
+}
+
+.nav-al1 {
+  background-color: #fff;
+}
+
+.nav-al a {
+  font-size: 17px;
+  margin: 35px 0 0 80px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-al i {
+  font-size: 20px;
+  margin: -3px 0 0 -50px;
+  color: #fff;
+}
+
+
+
+.iphone {
+  height: 200px;
+  /* border: 1px solid #000000; */
+}
+.iphone img {
+  margin: 70px 0 0 500px;
+}
+
+.nav-phone {
+  width: 100%;
+  /* height: 1000px; */
+  /* border: 1px solid #000000; */
+  padding: 20px;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.iphone h1 {
+  color: #000000;
+  margin: 10px 0 0 0px;
+  font-size: 30px;
+  padding-top: 90px;
+  font-family: Comfortaa;
+  font-weight: 100;
+  text-align: center;
+}
+
+.small-phones {
+  width: 240px;
+  padding: 20px 0 0 0;
+  background: #fff;
+  color: #000000;
+  border-radius: 30px;
+  height: 340px;
+  margin-left: 45px;
+  margin-bottom: 5px;
+  border: 1px solid #fff;
+  background: linear-gradient(0.25turn, #e8b51f, #ebf8e1, #e8b51f);
+  cursor: pointer;
+}
+
+.small-phones img {
+  margin-left: 8px;
+  width: 220px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.small-phones h1 {
+  font-family: 'Poppins', sans-serif;
+  margin: 5px 0 0 30px;
+  font-size: 17px;
+}
+
+.small-phones p {
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px 0 0 30px;
+  font-size: 17px;
+  color: #f8821b;
+  font-weight: 800;
+}
+
+
+
+
+.contacts {
+  width: 100%;
+  position: relative;
+  height: 200px;
+  /* border: 1px solid #000000; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: url(image/img4back.webp);
+  background-size: cover;
+}
+
+.address,
+.infos {
+  width: 50%;
+  /* border: 1px solid #000000; */
+}
+
+
+
+.newL img {
+  height: 60px;
+  width: 40px;
+  margin: 70px 0 0 750px;
+}
+
+.contacts {
+  width: 100%;
+  position: relative;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-image: url(image/imgreg.jfif);
+  background-size: 100%;
+}
+
+.inf {
+  /* border: 1px solid #fff; */
+  width: 280px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* position: relative; */
+  margin: 165px 0 0 -162px;
+  padding: 10px 0 0 10px;
+}
+
+.inf a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #fff;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+
+.phone-types,.laptop-types,.tablet-types{
+  position: fixed;
+  width: 110px;
+  height: 150px;
+  border: 1px solid #f6f5f5;
+  background-color: #dad9d9;
+  margin: -40px 0 0 490px;
+  padding: 1px 0 0 5px;
+  display: none;
+  border-radius: 20px;
+}
+
+.laptop-types{
+  margin-left: 625px;
+}
+
+
+.phone-types li,.laptop-types li,.tablet-types li{
+  list-style: none;
+  margin: 10px 0 5px -20px;
+  color: #da5808;
+  font-size: 19px;
+  font-family: Quicksand,sans-serif;
+}
+
+.tablet-types{
+  margin-left: 750px;
+}
+
